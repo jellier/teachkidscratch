@@ -5,6 +5,8 @@
 
 > 提出想法 --> 实现想法 --> 讨论及分享
 
+> 合作完成一个项目
+
 ## 教学任务
 > 计算机基本操作使用
 
@@ -38,4 +40,8 @@
 
 ## 参考网站：
 >  [学而思的闯关课程](https://www.enjoycode.com/course/game "学而思的编程闯关课程")   
->  [少儿编程网的入门课程结构](http://www.kidscode.cn/Home/Page/page/un/codefun "少儿编程网")   
+>  [少儿编程网的入门课程结构](http://www.kidscode.cn/Home/Page/page/un/codefun "少儿编程网") 
+
+
+## 优秀项目：
+>  [一个多人合作的展示类项目](https://scratch.mit.edu/projects/313983681/ "保护地球" )
