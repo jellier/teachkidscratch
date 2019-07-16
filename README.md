@@ -64,12 +64,11 @@
 ## 数学类项目
 >1. 认识随机数
 
->2. 计算器，会用到变量，条件，函数
->  [计算器函数版](https://scratch.mit.edu/projects/321152158/editor "计算器函数版")   
->> 知识点：变量，条件
 
->  [简单的计算器](https://scratch.mit.edu/projects/320985380/editor/ "简单的计算器")  
->> 知识点：函数 
+>2. 计算器，会用到变量，条件，函数
+
+> 知识点：变量，条件  [计算器函数版](https://scratch.mit.edu/projects/321152158/editor "计算器函数版")  
+> 知识点：函数  [简单的计算器](https://scratch.mit.edu/projects/320985380/editor/ "简单的计算器")   
 
 >3. 画图形（多边形及螺旋线），可结合随机数，会用到循环
 
@@ -98,6 +97,8 @@
 
 > 第五课：
 
+
+
 ## 参考网站：
 >  [学而思的闯关课程](https://www.enjoycode.com/course/game "学而思的编程闯关课程")   
 >  [少儿编程网的入门课程结构](http://www.kidscode.cn/Home/Page/page/un/codefun "少儿编程网") 
@@ -105,8 +106,8 @@
 
 
 ## 参考项目：
->  [一个多人合作的展示类项目](https://scratch.mit.edu/projects/313983681/ "保护地球" )
->  [鸡兔同笼](https://www.linstitute.net/archives/42781 "鸡兔同笼") 
+>  [一个多人合作的展示类项目](https://scratch.mit.edu/projects/313983681/ "保护地球" )  
+>  [鸡兔同笼](https://www.linstitute.net/archives/42781 "鸡兔同笼")   
 >  [计算器](http://www.kidscode.cn/archives/2274 "计算器") 
 
 ## 参考知识点：
