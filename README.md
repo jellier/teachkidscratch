@@ -56,6 +56,9 @@
 
 > 小猪佩奇的片头（加入音乐）
 
+> [小鱼水中游](https://scratch.mit.edu/projects/321283450/editor "最简单的循环")   
+知识点：编辑角色，单循环，不同频率的重复的动作使用多个循环同步
+
 > 短篇故事
 
 > 垃圾分类游戏
@@ -110,5 +113,17 @@
 >  [鸡兔同笼](https://www.linstitute.net/archives/42781 "鸡兔同笼")   
 >  [计算器](http://www.kidscode.cn/archives/2274 "计算器") 
 
-## 参考知识点：
-> [什么是随机数](https://www.6zou.net/docs/what_is_random.html "什么是随机数") 
+## 会涉及到的额外小知识：
+> 随机数：[什么是随机数](https://www.6zou.net/docs/what_is_random.html "什么是随机数") 
+   
+> 矢量图和位图：
+矢量图可以无限放大，不会失真，不会出来小方块；
+位图，放大会模糊，放大到最后，能看出是一个个小方块（像素）组成的
+
+>坐标轴/直角坐标系
+[直角坐标系](https://baike.baidu.com/item/%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB/1835293)  
+注意：坐标轴是是指一条带方向有刻度的直线.而坐标系则是指若干条坐标轴组成的若干维的空间.
+
+
+## 教师账号
+https://scratch.mit.edu/educators 
