@@ -301,3 +301,5 @@ https://scratch.mit.edu/educators
 > 3. 设置一个便于孩子记忆的开机密码  
 > 注意：是开机密码，打开你家电脑的密码 
 
+代理：http://0x61.com/u/jellier/U9qk4E.pac
+
