@@ -286,6 +286,9 @@ https://baike.baidu.com/item/%E9%B8%A1%E5%85%94%E5%90%8C%E7%AC%BC/5907332?fr=ala
 
 > 递归：
 > [递归的解释](https://pushy.site/2018/02/20/recursion/)
+
+> 算法（algorithm）：An algorithm is a series of mathematical steps, especially in a computer program, which will give you the answer to a particular kind of problem or question
+> [算法挑战](http://www.kidscode.cn/article/detail/id/4099.html )
 ## 教师账号
 https://scratch.mit.edu/educators 
 
