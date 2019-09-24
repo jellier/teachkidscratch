@@ -81,4 +81,5 @@
 
 
 ## 课后练习
-[课后练习](exercise3.md)
+[重力模拟](review1.md)
+[星球大战游戏](exercise3.md)
