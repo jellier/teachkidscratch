@@ -33,7 +33,7 @@
 >>>> 2) 添加事件："当绿旗被点击" --> 变量初始化，所有变量清零 --> 将小猫移至页面左上方 --> 重复执行10次，克隆自己，将变量temp增加1，将X坐标增加40 --> 循环结束后隐藏原始角色（便于对克隆体统一操作） 
 >>>> 3) "当作为克隆体启动时" --> 将私有变量"编号"设为全局变量"temp" 
 >>>> 4) "当接收到delete广播" --> 如果"编号"=="想删除第几只小猫" --> 删除此克隆体
- ![小猫的代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/cloneCat_Cat.jpg) 
+ ![小猫的代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/cloneCat_cat.jpg) 
 
 #### 需要注意的问题：
 >> 点击一下角色区的小猫，看看页面左侧"变量"区域显示的3个变量；再点击角色区的人物，只有两个变量，因为"编号"变量是适用于小猫角色的
