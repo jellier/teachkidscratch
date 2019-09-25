@@ -23,10 +23,11 @@
 > 运算：
 >> 在*和*之间取随机数
 
-##其他小知识  
+## 其他小知识  
 > 重力：真实世界中的重力：在真实世界中，当你试图沿直线抛出一个物体时，它总是会在重力的作用下画出一道落向地面的弧线。  
-        斜抛运动的轨迹是抛物线。斜抛运动的加速度是重力加速度，所以斜抛运动是匀变速运动。-- 这种解释对于孩子太难理解了。所以孩子们只要知道重力会影响物体的运动轨迹，运动轨迹取决于物体本身的重量和发射速度。   
-        在本节课的示例中，物体重量是一定的，所以可以通过发射速度来控制运动轨迹（如何吃到虫子）
+        斜抛运动的轨迹是抛物线。斜抛运动的加速度是重力加速度，所以斜抛运动是匀变速运动。-- 这种解释对于孩子太难理解了。    
+        所以孩子们只要知道重力会影响物体的运动轨迹，运动轨迹取决于物体本身的重量和发射速度。      
+        在本节课的示例中，物体重量是一定的，所以可以通过发射速度来控制运动轨迹（如何吃到虫子）  
 
 > 随机数：[什么是随机数](https://www.6zou.net/docs/what_is_random.html "什么是随机数") 
 
@@ -39,8 +40,7 @@
 > 说明： 使用键盘上下箭头控制青蛙弹跳的方向，空格键控制发射，用尽量少的跳跃次数捕获更多的虫子   
 > 知识点：键盘控制，复习广播，了解重力的概念        
         
-
-> 示例地址：[青蛙捉虫子-上](https://scratch.mit.edu/projects/324177292/editor) 
+> 示例地址：[青蛙捉虫子-上](https://scratch.mit.edu/projects/324177292/editor)    
 > 示例地址：[青蛙捉虫子-中](https://scratch.mit.edu/projects/324174825/editor)  
 
 > 步骤：
@@ -58,13 +58,15 @@
 >> step5. 添加game over的角色，发射次数变量（初始化，空格事件计数，接收广播显示）
 ![添加game over角色](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog2_addgameover.jpg)
 ![game over的代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog2_gameover.jpg)
->> step6. 收尾：game over时其他角色的处理
+>> step6. 收尾：game over时其他角色的处理：gameover显示，其他隐藏
  
 ## 2.此示例扩展 1： 增加障碍物   
-> 示例地址：[青蛙捉虫子](https://scratch.mit.edu/projects/323834199/editor)   
+> 示例地址：[青蛙捉虫子-下](https://scratch.mit.edu/projects/323834199/editor)   
 > 说明：增加一颗小灌木，确保角色轻微偏离舞台中心，稍靠左侧，否则虫子可能会粘在树后，游戏永远也结束不了   
 > 只需要在青蛙的代码中加入"或'碰到树'"的判断即可   
-
+![青蛙捉虫子-添加障碍物-树](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog3.jpg)   
+![树的代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog3_tree.jpg)
+  
 ## 3.此示例扩展 2: 增加重力加速度（重力的理解较难）    
 > 说明：增加了障碍物之后，青蛙撞到树后会停止飞行，这使得它无法抓到页面右侧的虫子，所以需要重力来帮忙   
 > 步骤： 增加两个变量"重力"和 "下落速度"， 用于模拟重力加速度   
@@ -72,6 +74,8 @@
         在青蛙的发射控制中（空格键触发）将"下落速度"设为0，表示在刚开始发射的时候青蛙还没有开始下落 -->    
         在发射控制的循环中将青蛙的y坐标增加"下落速度"，让青蛙（在循环中）不断下落，   
         同时将"下落速度"增加"重力"，让青蛙在每次循环之后加快下落速度    
+![青蛙加了重力的代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog3_frog.jpg)
+  
 > 备注：真实世界中的重力：在真实世界中，当你试图沿直线抛出一个物体时，它总是会在重力的作用下画出一道落向地面的弧线
         为了让游戏以同样的方式运行，我们让青蛙先沿着直线运动，但同时在它每次谓一致后添加一次向下的运动，这样就能模拟出持续不断的重力下拉效果。这样会让运动看起来更自然逼真。    
         
