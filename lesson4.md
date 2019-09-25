@@ -50,14 +50,18 @@
 
 >> step2. 添加青蛙（初始化，发射控制）和发射器（初始化，上下左右箭头控制）
 ![青蛙捉虫子-第二步-添加青蛙和发射控制](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog2.jpg)   
-![青蛙的代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog2_frog.jpg)
+![青蛙的代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog2_frog.jpg)  
+
 >> step3. 在螳螂的克隆体上增加触碰判断
 ![螳螂的代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog2_hopper.jpg)
+
 >> step4. 添加箭头角色作为发射器，上下左右箭头控制
 ![发射器的代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog2_arrow.jpg)
+
 >> step5. 添加game over的角色，发射次数变量（初始化，空格事件计数，接收广播显示）
 ![添加game over角色](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog2_addgameover.jpg)
 ![game over的代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog2_gameover.jpg)
+
 >> step6. 收尾：game over时其他角色的处理：gameover显示，其他隐藏
  
 ## 2.此示例扩展 1： 增加障碍物   
@@ -85,7 +89,7 @@
 >>1. Q:坐标取值问题    
      A:坐标系理解起来有点难，所以当要求把虫子显示在页面右方时，还不能明白如何设定 X / Y 的取值范围，还需要加强坐标轴的练习。另外可以选择scratch自带的坐标系背景作为辅助，定位好角色后再把辅助背景删除
 ![添加坐标系背景作为辅助背景](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog_xy.jpg) 
- ![可以在背景选项卡下看到添加的背景](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog_addxy.jpg) 
+ ![可以在背景选项卡下看到添加的背景](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog_addbg.jpg) 
 >>2. Q: 搞不清楚代码该加到原型上还是克隆体上
      A: 需要理解克隆体和原型的关系，克隆体复制之前的代码加到原型上（如初始化，复制克隆体），对克隆出来的对象的操作放到""当作为克隆体启动时"下面。另外在克隆出新对象后可以把原型隐藏，统一处理克隆体比较简便
 
