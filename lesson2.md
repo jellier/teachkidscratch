@@ -1,8 +1,8 @@
-# 第二课：使用变量、广播、复杂的条件组合
+# 第二课：小鱼水中游 使用变量、广播
 
 ## 课程概括：
 > 通过对上一节课小鱼游戏的扩展了解广播的机制，学会添加文字角色
-> 通过BMI计算器，了解条件运算符
+
  
 ## 本节课涉及到的知识点、使用到的模块：
 > 控制
@@ -14,16 +14,25 @@
         3）scratch中的广播功能，可以在“事件”分类中找到它们：     
         其中一共有3个模块：当接收到广播、广播一个消息、广播一个消息并等待    
 
-> 运算：条件运算符：与，或，不成立，需要检测多个时使用，可以检测复杂的条件组合  
-        1）条件运算符的优先级要高于+-*/运算   
-        2）a与b的判断条件需要两者都满足才能成立，a或b的判断条件只需要二者满足其一    
-        3）如：18.5 < BMI < 23.9 BMI既大于18.5又小于23.9 ，所以需要使用"与"的判断 18.5 < BMI 与 BMI < 23.9
-              小鱼不管是碰到1号鲨鱼还是2号鲨鱼都需要隐藏起来，所以需要使用"或"的判断 "碰到shark1" 或 "碰到shark2"
 
-> 侦测：询问**并等待，会将询问结果返回到"回答"中
+## 小鱼水中游的扩展        
+### 此示例扩展2：增加多个敌人   
+> 说明：增加游戏的趣味性，可添加多个敌人  
+> 示例地址：[大鱼吃小鱼2](https://scratch.mit.edu/projects/324022543/editor "加入多个敌人")  
+![增加多个敌人](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish2.jpg)
 
-### 例子1：小鱼水中游的扩展    
-> 此示例扩展3：增加game over提示   
+>> step5. 增加敌人：另一条鲨鱼    
+        1）直接在鲨鱼上点右键复制    
+        2）给shark2修改游动频率和游动方向 
+![复制一条鲨鱼](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish2_copy.jpg)
+![修改第二条鲨鱼的游动频率和方向](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish2_shark2.jpg)
+
+>> step6. 给小鱼的碰撞侦测上添加"或"条件    
+![修改小鱼的碰撞侦测条件](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish2_fish.jpg)
+
+
+   
+### 此示例扩展3：增加game over提示   
 > 说明：当小鱼被大鱼吃掉，广播"game over"，鲨鱼接收到game over 广播后隐藏，文字game over接收到广播后显示   
 > 知识点：广播 添加文字角色    
 > 示例地址：[大鱼吃小鱼3](https://scratch.mit.edu/projects/324056921/editor "加入广播")  
@@ -46,29 +55,6 @@
 ![给鲨鱼加上接收广播](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish3_shark.jpg)
 
 
-## 2. BMI计算器，认识编程如何解决数学问题
->说明：配合计算器使用，理解运算符在程序中的使用
-> 知识点：深入理解条件，运算符
-> 示例地址：[BMI计算器](https://scratch.mit.edu/projects/321460387/editor "BMI计算器")     
-           [BMI计算器-上课演示](https://scratch.mit.edu/projects/324124989/editor "BMI计算器") 
-> 备注：BMI中国指数：偏瘦<= 18.4; 18.5 <= 正常 <= 23.9; 24<=过重<=27.9 ; 肥胖 >= 28 
-> 核心算法：体质指数(BMI)=体重(kg)/身高 (m)^2
-> 步骤：
->> step1. 添加人物角色、背景   
->> step2. 询问用户身高、体重 
-            1）添加"身高"、"体重"的变量，并设置初始值为0    
-            2）询问**并等待，将"回答"赋给身高、体重   
-              
->> step3. 计算BMI值   
-            1）添加 BMI 变量   
-            2）计算BMI = 体重(kg)/身高 (m) * 身高 (m)  并赋值给BMI变量    
-            
->> step4. 添加提示判断，使用如果。。。那么 做以下4个条件判断  
-            1）BMI < 18.5   
-            2）BMI > 18.5 与 BMI < 23.9   
-            3）BMI > 24 与 BMI < 27.9   
-            4）BMI > 28   
-
 ## 孩子们出现的问题：  
 >>1. Q:小鱼游戏里广播不知道该加在哪个角色上，
      A:如果游戏里有一对多的角色，那就添加到唯一的那个角色上,因为广播的机制就是一对多，发送广播的只能是一个对象，但接收方可以很多
@@ -76,4 +62,4 @@
      A:判断条件里加上"与""或"，减少重复代码
      
 ## 课后练习
-[本节课后练习，几个简单的数学问题，试试看](exercise2.md)
+[本节课后练习，几个简单的小游戏，可以试着做一下](exercise1.md)
