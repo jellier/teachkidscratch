@@ -23,16 +23,28 @@
 > 侦测：询问**并等待，会将询问结果返回到"回答"中
 
 ### 例子1：小鱼水中游的扩展    
-> 此示例扩展3：增加game over提示
-> 说明：当小鱼被大鱼吃掉，广播"game over"，鲨鱼接收到game over 广播后隐藏，文字game over接收到广播后显示
-> 知识点：广播 添加文字角色 
+> 此示例扩展3：增加game over提示   
+> 说明：当小鱼被大鱼吃掉，广播"game over"，鲨鱼接收到game over 广播后隐藏，文字game over接收到广播后显示   
+> 知识点：广播 添加文字角色    
+> 示例地址：[大鱼吃小鱼3](https://scratch.mit.edu/projects/324056921/editor "加入广播")  
+![增加game over](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish3.jpg)
+
 >> step7. 添加文字角色game over
          1）在"选择一个角色"的按钮上点"绘制"   
          2）选择文字工具，输入game over,调整大小   
-         3）给game over加上代码："当绿旗被点击" 隐藏，"当接收到game over" 显示   
+         3）给game over加上代码："当绿旗被点击" 隐藏，"当接收到game over" 显示  
+![选择"绘制"](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish3_text.jpg)
+![选择文字工具输入"game over"](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish3_text2.jpg)
+![调整文字大小](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish3_text3.jpg)
+
+![给"game over"添加代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish3_gameover.jpg)
+ 
 >> step8. 在小鱼的脚本上，被大鱼吃掉隐藏后面加上广播game over,并且停止全部脚本  
+![给小鱼加上广播](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish3_fish.jpg)
+
 >> step9. 在两只鲨鱼的脚本上添加"当接收到game over" 隐藏，并且在绿旗点击时显示   
-> 示例地址：[大鱼吃小鱼3](https://scratch.mit.edu/projects/324056921/editor "加入广播")  
+![给鲨鱼加上接收广播](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish3_shark.jpg)
+
 
 ## 2. BMI计算器，认识编程如何解决数学问题
 >说明：配合计算器使用，理解运算符在程序中的使用

@@ -28,34 +28,44 @@
 > 说明：大海里一条小鱼在游来游去，遇到边缘返回   
 > 知识点：认识舞台，背景，角色，编辑角色，触发事件，forever循环 ，不同频率的重复的动作使用多个循环同步     
 > 示例地址：[小鱼水中游](https://scratch.mit.edu/projects/321283450/editor "最简单的循环")
-   
+![小鱼水中游](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/fishSwim.jpg)
 > 步骤：
->> step1. 加入场景（大海），角色（小鱼）      
+>> step1. 加入场景（大海），角色（小鱼） 
+![选择场景、角色](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/fishSwim_choose.jpg)     
 >> step2. 给角色加上代码   
         1）加入小鱼的动作：让角色移动10步/碰到边缘反弹/将旋转方式设为左右翻转/下一个造型，加入到循环中，讲解循环              
         2）模拟小鱼的真实效果：   
             a）给游动加入时间间隔，模拟真实游动效果    
             b）起浮，加入右转代码，不同频率的动作需要加入另外的循环  
             c）声音，小鱼游动时吐泡泡的声音    
-        
+![小鱼的代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/fishSwim_code.jpg)        
 
  
 > 此示例扩展1：大鱼吃小鱼   
-> 说明：想让游戏有趣，一定要增加一个敌人。给游戏加入一条鲨鱼，当鲨鱼碰到小鱼的时候，小鱼发出"啊"的惨叫，被鲨鱼吃掉    
+> 说明：想让游戏有趣，一定要增加一个敌人。给游戏加入一条鲨鱼，当鲨鱼碰到小鱼的时候，小鱼发出"啊"的惨叫，被鲨鱼吃掉 
+![大鱼吃小鱼](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish1.jpg)   
 >> step3. 增加敌人：一条鲨鱼    
         1）加入一个新角色：鲨鱼    
-        2）给鲨鱼加上游动的代码（可参考小鱼的，但频率要快一些）    
+        2）给鲨鱼加上游动的代码（可参考小鱼的，但频率要快一些）   
+![鲨鱼的代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish1_shark.jpg) 
 >> step4. 给小鱼添加碰撞侦测     
 > 示例地址：[大鱼吃小鱼](https://scratch.mit.edu/projects/324020784/editor "加入敌人")    
-
+![小鱼的代码](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish1_fish.jpg)
 
 > 此示例扩展2（作业）：增加多个敌人   
 > 说明：增加多个敌人  
+> 示例地址：[大鱼吃小鱼2](https://scratch.mit.edu/projects/324022543/editor "加入多个敌人")  
+![增加多个敌人](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish2.jpg)
+
 >> step5. 增加敌人：另一条鲨鱼    
-        1）直接在鲨鱼上点右键复制     
-        1）给shark2修改游动频率和游动方向    
+        1）直接在鲨鱼上点右键复制    
+        2）给shark2修改游动频率和游动方向 
+![复制一条鲨鱼](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish2_copy.jpg)
+![修改第二条鲨鱼的游动频率和方向](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish2_shark2.jpg)
+
 >> step6. 给小鱼的碰撞侦测上添加"或"条件    
-> 示例地址：[大鱼吃小鱼2](https://scratch.mit.edu/projects/324022543/editor "加入多个敌人")   
+![修改小鱼的碰撞侦测条件](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish2_fish.jpg)
+
 
 ## 孩子们出现的问题：  
 >>1. 刚开始让小鱼移动的时候没有加上循环，到后面加入鲨鱼的时候就知道把代码放入循环了    
