@@ -12,12 +12,16 @@
 
 > 在Scratch中数组叫"列表"
 > 建立一个列表（数组）
+
 点击"变量"--"建立一个列表"：
-![建立一个列表](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/MultiTable_addnew.jpg)
+![建立一个列表](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/MultiTable_addnew.jpg)    
+
 在弹出框中输入列表的名称：
-![建立一个列表](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/MultiTable_new.jpg)
+![建立一个列表](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/MultiTable_new.jpg)      
+
 确定后，变量功能中会出现以下功能：
-![建立一个列表](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/MultiTable_listmethod.jpg)
+![建立一个列表](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/MultiTable_listmethod.jpg)  
+    
 舞台上显示刚刚创建的列表，点击右下角的加号，可以添加列表项
 ![建立一个列表](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/MultiTable_additem.jpg)
 
@@ -46,9 +50,10 @@
 
 
 
-## 四、问题：  
+## 遇到的问题：  
 >>1. Q: 如何在Scratch中显示比较复杂的字符串         
      A: Scratch中处理字符的功能比较简单，所以使用起来就比较麻烦。没有如python中的print或者js中的alert功能，比如想输出一个6 * 3 =18，需要将 "6"，"3"，"*","=","18" 作为5个字符拼接起来，而在其他编程语言中，可以直接print(6*3)
+ 
  ![当前口诀](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/MultiTable_now.jpg)
 
     
