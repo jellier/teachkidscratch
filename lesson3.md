@@ -1,7 +1,7 @@
 # 第三课：BMI计算器--复杂的条件组合
 ![BMI计算器](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/BMI.jpg)
 ## 课程概括： 
-> 通过BMI计算器，了解条件运算符
+> 通过BMI计算器，了解条件运算符，学会用编程思维解决数学问题
 
 ## 本节课涉及到的知识点、使用到的模块：
 > 运算：条件运算符：与，或，不成立，需要检测多个时使用，可以检测复杂的条件组合  
