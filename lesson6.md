@@ -8,12 +8,13 @@
 >> 地洞：克隆版本的游戏中才有代码   
 >> 舞台：页面变量初始化，控制几号地鼠出现   
 
+![打地鼠游戏](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster.jpg)
 
 
 ## 本节课涉及到的知识点、使用到的模块：  
 > 虚像特效：在scratch中，虚像就是让图像变透明，虚像的值就是图像透明的程度     
   试试看：外观---> 将"颜色"特效设定为*** --> 点击"颜色"下拉框选择"虚像"--> 分别设置成10和100，看看差别
-
+![虚像](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster_virtual.jpg)
 ## 打地鼠      
 > 说明： 用鼠标控制锤子的位置，将随机出现的地鼠打下去     
 > 知识点：虚像，复杂的条件组合     
@@ -24,8 +25,10 @@
         2）在"选择一个角色"中选择squirrel作为地鼠的形象，角色名为hamter1     
         3）画一个锤子：   
             A. 用两个椭圆和一个长方形拼成锤子头，一个长方形作为锤子柄，组合后旋转到适当角度     
-            B. 选中造型选项卡，在造型1上点鼠标右键选择"复制"，Ctrl+A 全选中锤子的全部，然后拖动最下方的小弧线旋转图像，调整到合适位置，模拟锤子下落的造型    
-        4）画一个地洞：画两个同样形状但大小不同的椭圆，重叠到一起，留个边缘让地洞有立体感      
+            B. 选中造型选项卡，在造型1上点鼠标右键选择"复制"，Ctrl+A 全选中锤子的全部，然后拖动最下方的小弧线旋转图像，调整到合适位置，模拟锤子下落的造型   
+        ![锤子](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster_hammer.jpg) 
+        4）画一个地洞：画两个同样形状但大小不同的椭圆，重叠到一起，留个边缘让地洞有立体感    
+        ![地洞](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster_hole.jpg)  
         5）复制5个地鼠，5个地洞     
         
 >> step2. 给地鼠添加显示代码，模拟地鼠出现    
@@ -33,17 +36,17 @@
            A. 地鼠外观初始化：隐藏（游戏开始时所有地鼠都是隐藏在地洞里的）；移到最前面；移到相应位置；换成正常造型；将虚像特效设定为100     
            B. 让地鼠间隔一段时间显示：重复执行5次--> 将虚像特效增加-20；将y坐标增加2        
            备注：虚像可以实现一个图像由浅入深显示的效果。当虚像=0时，图像正常显示；当虚像=100时，图像完全透明。这个例子中虚像初始值为100（完全透明），在循环中每次增加-20，5次后虚像为0（正常显示）     
-         
+![地鼠1](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster_hamster1.jpg)            
         
 >> step3. 给舞台添加代码，控制5只地鼠随机出现    
         1) 添加一个变量"哪只地鼠出现"      
         2) 当绿旗被点击：每间隔1秒从1-5之中随机选一个数，给"哪只地鼠出现"赋值，并发送广播给相应的地鼠      
-        
+![舞台](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster_storage.jpg)         
 >> step4. 调整地鼠的代码    
         1）当接收到*号地鼠出来的广播：此地鼠显示     
         2）将原来绿旗下的代码放到接收广播的控制下方   
         3）当绿旗被点击：地鼠隐藏；切换成默认（正常）造型     
-        
+![地鼠2](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster_hamster2.jpg)          
 >> step5. 给锤子添加代码，鼠标跟随，模拟打的动作，以及触碰的检测     
         1）初始化：按造型1显示（锤子有两个造型，造型1是落下前的样子，造型2是落下后的样子）   
         2）重复执行：移到"鼠标指针"，实现鼠标跟随效果     
@@ -53,11 +56,11 @@
         5）增加一个"得分"变量，每次打到地鼠加1分    
         6）广播"打到地鼠了"   
         7）得分后等待0.2秒，避免打一下得很多分   
-           
+![锤子](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster_hammercode.jpg)            
 >> step6. 调整地鼠的代码   
         1）地鼠接收到"打到地鼠了"的广播后切换到造型2    
-        备注：这样的效果是一只被打到其他所有地鼠都要被打烂，但与此同时其他地鼠是隐藏的，而且每次地鼠出现的时候有一个造型的初始化，保证地鼠出现的时候是正常的样子，所以这里即使全部打烂也不影响。
-           
+        备注：这样的效果是一只被打到其他所有地鼠都要被打烂，但与此同时其他地鼠是隐藏的，而且每次地鼠出现的时候有一个造型的初始化，保证地鼠出现的时候是正常的样子，所以这里即使全部打烂也不影响。    
+![地鼠2](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster_hamster3.jpg)                 
 >> step7. 调整和完善代码
         1）在每只地鼠收到显示的广播后加上"等待2秒"来控制游戏的节奏   
         2）增加game over 或者 You win 提示。
