@@ -81,8 +81,9 @@
             B. 选中造型选项卡，在造型1上点鼠标右键选择"复制"，Ctrl+A 全选中锤子的全部，然后拖动最下方的小弧线旋转图像，调整到合适位置，模拟锤子下落的造型    
         4）画一个地洞：画两个同样形状但大小不同的椭圆，重叠到一起，留个边缘让地洞有立体感    
 
->> step2. 锤子
+>> step2. 锤子   
 ![克隆-锤子](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster_clone_hammer.jpg)
+
 >> step3. 克隆地洞
         1）增加一个变量"第几个地洞"，作为克隆地洞时的临时计数器，新建变量时默认选择"适用于所有角色"。  
         2）将地洞移到页面偏左的位置，重复执行5次"克隆自己"   
@@ -113,9 +114,14 @@
 ![克隆-地鼠2](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster_clone_hamster2.jpg)
 
 ### 对比一下两种方法下角色的数量（有多少角色就有多少代码）：
+复制地鼠地洞：
 ![第一种方法：复制地鼠和地洞](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster_role1.jpg)  
- 
-![第二种方法：克隆地鼠和地洞](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster_role2.jpg)   
+
+克隆地鼠地洞：
+![第二种方法：克隆地鼠和地洞](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster_role2.jpg)  
+
+是不是使用克隆的方法简洁了很多？ 
+
 ## 需要注意的问题：  
 >>1. Q: 调整克隆体的位置         
      A: 克隆体每次是在原型当前位置上克隆出新的对象，所以如果想让克隆体出现在合适的位置上，需要先定位XY坐标，再"克隆自己"       
