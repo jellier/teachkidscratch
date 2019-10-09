@@ -4,7 +4,9 @@
 > 熟悉了解条件运算符，学会用编程思维解决数学问题
 
 ## 开始练习
-### 练习1：计算器。   
+### 练习1：计算器。
+![计算器](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/calculatorNormal.jpg)
+   
 > 知识点：认识变量，认识条件，运算符     
 > 示例地址： [简单的计算器](https://scratch.mit.edu/projects/320985380/editor/ "简单的计算器")     
 > 备注：变量初始化     
@@ -14,6 +16,8 @@
 > 备注：定义函数的时候不要忘了增加输入项，调用函数的时候不要忘了把回答传给输入项 
 
 ### 练习2：鸡兔同笼
+![鸡兔同笼](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/chickenBunny.jpg)
+
 > 知识点：直到循环，广播
 1）直到循环：   
 2）广播：广播是一对多使用的，一个发送端，多个接收端；发送端和接收端的消息要一样，才能执行程序

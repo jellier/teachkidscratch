@@ -17,6 +17,56 @@
 > 编写简单小游戏
 
 
+## 课程列表
+
+### 第一课：初步认识scrach , 从一个简单的小游戏开始
+![小鱼水中游](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/fishSwim.jpg)
+> 示例地址：[小鱼水中游](https://scratch.mit.edu/projects/321283450/editor "最简单的循环")   
+> 示例详解：[lesson1](https://github.com/jellier/teachkidscratch/blob/master/lesson1.md)   
+> 课后练习：[exercise1](https://github.com/jellier/teachkidscratch/blob/master/exercise1.md)
+
+### 第二课：小鱼水中游的扩展，增加游戏可玩度 
+![增加多个敌人](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish2.jpg)
+> 示例地址：[大鱼吃小鱼2](https://scratch.mit.edu/projects/324022543/editor "加入多个敌人")   
+
+![增加game over](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish3.jpg)
+> 示例地址：[大鱼吃小鱼3](https://scratch.mit.edu/projects/324056921/editor "加入广播")       
+> 示例详解：[lesson2](https://github.com/jellier/teachkidscratch/blob/master/lesson2.md) 
+> 课后练习：[exercise2](https://github.com/jellier/teachkidscratch/blob/master/exercise2.md)
+
+### 第三课：BMI计算器--复杂的条件组合
+![BMI计算器](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/BMI.jpg)
+> 示例地址：[BMI计算器](https://scratch.mit.edu/projects/321460387/editor "BMI计算器")  
+           [BMI计算器-上课演示](https://scratch.mit.edu/projects/324124989/editor "BMI计算器")      
+> 示例详解：[lesson3](https://github.com/jellier/teachkidscratch/blob/master/lesson3.md) 
+> 课后练习：[exercise3](https://github.com/jellier/teachkidscratch/blob/master/exercise3.md)
+
+### 第四课：青蛙捉虫子游戏：使用克隆增加游戏对象，重力在游戏中的使用，开发游戏思维
+![青蛙捉虫子](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog.jpg)
+> 示例地址：[青蛙捉虫子-上](https://scratch.mit.edu/projects/324177292/editor)    
+> 示例地址：[青蛙捉虫子-中](https://scratch.mit.edu/projects/324174825/editor)  
+> 示例地址：[青蛙捉虫子-下](https://scratch.mit.edu/projects/323834199/editor)      
+> 示例详解：[lesson4](https://github.com/jellier/teachkidscratch/blob/master/lesson4.md) 
+> 课后练习：[exercise4](https://github.com/jellier/teachkidscratch/blob/master/exercise4.md)
+
+### 第五课：打印乘法口诀表--数组、字符串的使用，嵌套循环
+![打印乘法口诀表](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/MultiTable.jpg)   
+> 示例地址：[打印乘法口诀表](https://scratch.mit.edu/projects/321784470/editor)   
+> 示例详解：[lesson5](https://github.com/jellier/teachkidscratch/blob/master/lesson5.md) 
+   
+### 第六课：打地鼠--复盘如何设计及优化一个游戏
+![打地鼠游戏](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Hamster.jpg)
+> 示例地址：[打地鼠](https://scratch.mit.edu/projects/325454314/editor)      
+> 示例地址：[打地鼠--克隆地鼠地洞版](https://scratch.mit.edu/projects/326389786/editor)     
+> 示例详解：[lesson6](https://github.com/jellier/teachkidscratch/blob/master/lesson6.md) 
+
+
+### 重要知识点复习课
+####  复习课1：重力，物体的运动轨迹
+> 示例详解：[review1](https://github.com/jellier/teachkidscratch/blob/master/review1.md) 
+
+####  复习课2：克隆，控制指定克隆体
+> 示例详解：[review2](https://github.com/jellier/teachkidscratch/blob/master/review2.md) 
 
 ## 知识点
 > 1、序列：序列是将模块按照顺序一条一条执行
@@ -38,279 +88,3 @@
 > 6、事件：计算机检测到的按下键盘或者点击鼠标的行为叫"事件"
 
 > 7、复杂的条件组合：或，与，不成立，需要检测多个时使用
-
-## 课程安排
-
-> 计划5节课，每次2小时
-
-> 每节课安排：
-> 1.   新知识介绍（20分钟）:事件积木，动作积木，声音积木。。。。
-> 2.   编程逻辑：指令，序列，循环，事件，变量，条件，运算（针对该节课项目使用到的）
-> 3.   其他元素：角色，舞台，音乐，动画，及其他程序互动（针对该节课项目使用到的）
-> 4.   学员自己练习，debug, 展示，讨论（如果还有时间，你可以添加或者改变什么功能？）
-> 5.   作业及上一次作业展示
-
-> 每节课内容：每次课做一个简单的展示类的项目及一个数学相关的项目
-
-
-## 展示类项目
-> 1.click game
-> 说明：鼠标点击气球，气球发出声音
-> 知识点：点击角色触发事件 ，forever循环
-> 示例地址：[click game](https://scratch.mit.edu/projects/322778834/editor)
-> 说明：
-> 备注：
-
-> 2.小鱼水中游 
-> 说明：大海里一条小鱼在游来游去，遇到边缘返回
-> 知识点：认识舞台，背景，角色，编辑角色，触发事件，单循环 ，不同频率的重复的动作使用多个循环同步 
-> 示例地址：[小鱼水中游](https://scratch.mit.edu/projects/321283450/editor "最简单的循环")   
-> 备注：
-> 此示例扩展：增加多条小鱼，增加声音，背景音乐
-
-> 3.pong game
-> 说明：用paddle去接球，防止球落下
-> 知识点：单循环，碰撞触发事件，鼠标追随
-> 示例地址：[pong game](https://scratch.mit.edu/projects/322751495/editor)
-> 说明：
-> 备注：注意碰撞后球的角度，右转170--190
-
-> 此示例扩展：增加game over  
-> 说明：想让游戏有趣，一定要增加一个敌人。增加一条红线，小球触发到红线就game over
-
-
-> 4.追逐游戏：沙漠里的鱼
-> 说明：一条小鱼被施了魔法困在了沙漠里，只能靠小小的鱼缸生存，它必须接住掉下来的雨点，当雨点凑足10个就能返回大海
-> 知识点：循环，键盘控制，多角色多背景切换    
-> 示例地址：  [chase game](https://scratch.mit.edu/projects/322347067/editor "chase game")     
-> 参考： [chase game card](https://resources.scratch.mit.edu/www/cards/en/chase-cards.pdf)    
-        [chase game guide](https://resources.scratch.mit.edu/www/guides/en/ChaseGuide.pdf)    
-> 备注：角色的显示隐藏初始化不要放在同一个绿旗控制下
-
-> 此示例扩展 1：增加敌人和game over提示  
-> 说明：想让游戏有趣，一定要增加一个敌人。增加一个左右移动的猫，碰到边缘就反弹，碰到鱼缸则游戏结束。   
-> 知识点：广播，碰撞检测，增加文字角色
-> 备注：碰撞检测在电脑游戏中非常重要
-
-> 此示例扩展 2（可作为自主练习）：增加多个敌人，并且敌人朝各个方向移动
-> 说明：为了让游戏更刺激可以添加多个敌人，让敌人朝不同方向移动，增加躲避的难度。
-> 知识点：方向，随机数
-方向：在Scratch中，我们用角度来设定方向，可以在-179度到180度之间选择任何数字，负数让角色面向左侧，正数让角色面向右侧。0度垂直向上，180度垂直向下。
-随机数：现实中的骰子为什么那么有趣？因为它的不确定性让玩家体验到不同的结果，感受到惊喜，和骰子一样，随机数就是让你无法提前预测。
-> 备注：敌人可以设置不同的方向和移动步数。第一个敌人水平移动（90度），第二个敌人沿对角线移动（135度），第三个敌人按随机方向移动
-
-
-> 5.追逐&躲避游戏：星球大战   
-> 说明：遥远的某星球即将爆发星球大战，为了保卫星球，蓝色飞船必须争取触碰到绿色飞船增加能量值，也需要尽量躲避红色飞船防止减少分数
-        大于20分获胜，小于-20分失败   
-> 知识点：克隆，及克隆体启动事件    
-> 示例地址：[星球大战](https://scratch.mit.edu/projects/322995930/editor)
-
-> 此示例扩展 1：增加片头  
-> 说明：玩家需要掌握游戏规则，增加一个说明，使用键盘触发来控制游戏开始
-
-> 此示例扩展 2: 增加结尾  
-> 说明：按照小鱼游戏的方式，如果失败提示game over,获胜则提示成功，不同的结果对应不同的场景
-
-> 6.弹射控制类游戏：青蛙捉虫子      
-> 说明： 使用键盘上下箭头控制青蛙弹跳的方向，空格键控制发射，用尽量少的跳跃次数捕获更多的虫子 
-> 知识点：键盘控制，复习广播，重力的概念    
-> 示例地址：[青蛙捉虫子](https://scratch.mit.edu/projects/323834199/editor)
-> 步骤：添加青蛙（初始化，发射控制）和发射器（初始化，上下左右箭头控制）--> 
-        增加螳螂（初始化，克隆体初始化，game over广播）———>
-        添加game over的角色，发射次数变量（初始化，空格事件计数，接收广播显示） ———>  
-        收尾：game over时其他角色的处理
-
-> 此示例扩展 1： 增加障碍物 
-> 说明：增加一颗小灌木，确保角色轻微偏离舞台中心，稍靠左侧，否则虫子可能会粘在树后，游戏永远也结束不了
-> 只需要在青蛙的代码中加入"或'碰到树'"的判断即可
-
-> 此示例扩展 2: 增加重力加速度（重力的理解较难）  
-> 说明：增加了障碍物之后，青蛙撞到树后会停止飞行，这使得它无法抓到页面右侧的虫子，所以需要重力来帮忙
-> 步骤： 增加两个变量"重力"和 "下落速度"， 用于模拟重力加速度
-        在青蛙的初始化中增加变量"重力"的初始值（-0.2）-->
-        在青蛙的发射控制中（空格键触发）将"初始速度"设为0，表示在刚开始发射的时候青蛙还没有开始下落 -->  
-        在发射控制的循环中将青蛙的y坐标增加"下落速度"，让青蛙（在循环中）不断下落，
-        同时将"下落速度"增加"重力"，让青蛙在每次循环之后加快下落速度
-> 备注：真实世界中的重力：在真实世界中，当你试图沿直线抛出一个物体时，它总是会在重力的作用下画出一道落向地面的弧线
-        为了让游戏以同样的方式运行，我们让青蛙先沿着直线运动，但同时在它每次谓一致后添加一次向下的运动，这样就能模拟出持续不断的重力下拉效果。这样会让运动看起来更自然逼真。
-    
-> 7.双人竞速类游戏：赛车
-> 说明：这是一个双人游戏，玩家沿着屏幕向上行驶，急转弯绕过各种障碍物，在行进中收集宝石，此游戏没有终点，倒计时结束时收集宝石最多的人获胜
-> 知识点：广播的应用
-> 示例地址：[赛车游戏](https://scratch.mit.edu/projects/323890577/editor)
-> 步骤：添加空白角色作为广播的总控制
-
-  
-
-## 数学类项目
-
->1. 计算器。  
-> 知识点：认识变量，认识条件，运算符    
-> 示例地址： [简单的计算器](https://scratch.mit.edu/projects/320985380/editor/ "简单的计算器")   
-> 备注：变量初始化     
-> 此示例扩展 ：认识函数    
-> 知识点：函数    
-> 示例地址： [计算器函数版](https://scratch.mit.edu/projects/321152158/editor "计算器函数版")   
-> 备注：定义函数的时候不要忘了增加输入项，调用函数的时候不要忘了把回答传给输入项   
-
->2. BMI计算器（配合计算器使用，理解运算符在程序中的使用）
-> 知识点：深入理解条件，运算符
-> 示例地址：[BMI计算器](https://scratch.mit.edu/projects/321460387/editor "BMI计算器") 
-> 备注：BMI中国指数：偏瘦<= 18.4; 18.5 <= 正常 <= 23.9; 24<=过重<=27.9 ; 肥胖 >= 28 
-> 核心算法：体质指数(BMI)=体重(kg)/身高 (m)^2
-
-
->3. 画正多边形（多边形及螺旋线）
-> 知识点：认识循环，认识变量，认识画笔   
-> 示例地址：[画多边形](https://scratch.mit.edu/projects/322614462/editor/ "画多边形")    
-> 步骤：从画正方形开始 --> 加入循环 --> 画正三角形、六边形 --> 找出规律 --> 加入变量 --> 改变边数/步长 
-    
-> 此示例扩展 1：画多个，画满屏    
-> 知识点：坐标轴，画笔的抬笔及其他    
-> 示例地址： [画多边形2](https://scratch.mit.edu/projects/322615303/editor/ "画多边形2")    
-> 步骤：将上一示例加入书包，另起一个新作品 --> 加入原代码，加入坐标轴的背景  -->  加入列数，增加x坐标 --> 抬笔 
-        --> 加入行数 --> 加入增加y坐标 --> 在行数循环中初始化x坐标
-> 备注：讲解坐标轴的概念
-
-> 此示例扩展 2：谢尔宾斯基三角形
-> 知识点：递归循环，函数调用
-> 示例地址：[谢尔宾斯基三角形](https://scratch.mit.edu/projects/322617676/editor/ "谢尔宾斯基三角形")
-> 步骤： 先在画三角形 --> 把画三角形的步骤抽离到函数中 --> 在函数中递归调用 --> 加上如果（边长>某数值）的判断（否则就是死循环）
-> 备注：1）递归：在函数的定义中使用函数自身的方法。一说起递归，我想每个人都不陌生。    
-                举个从小就听过的例子：从前有座山，山里有座庙，庙里有个和尚，和尚在讲故事，从前有座山，山里有座庙，庙里有个和尚，和尚在讲故事，从前有座山...    
-                还有你从两面相对的镜子中看到的画面，其实都是抽象出来的递归现象，但是严格来说并不是递归，
-                因为会一直重复下去，没有终止条件，那就称为死循环了。 
-                假设你在一个电影院，你想知道自己坐在哪一排，但是前面人很多，你懒得去数了，于是你问前一排的人「你坐在哪一排？」，这样前面的人 (代号 A) 回答你以后，你就知道自己在哪一排了——只要把 A 的答案加一，就是自己所在的排了。不料 A 比你还懒，他也不想数，于是他也问他前面的人 B「你坐在哪一排？」，这样 A 可以用和你一模一样的步骤知道自己所在的排。然后 B 也如法炮制。直到他们这一串人问到了最前面的一排，第一排的人告诉问问题的人「我在第一排」。最后大家就都知道自己在哪一排了。                            
-        2）循环和递归的区别：简单来说，循环是有去无回，而递归则是有去有回(因为存在终止条件)。   
-                举个栗子，你用你手中的钥匙打开一扇门，结果去发现前方还有一扇门，紧接着你又用钥匙打开了这扇门，然后你又看到一扇们…但是当你开到某扇门时，发现前方是一堵墙无路可走了，你选择原路返回——这就是递归
-                但是如果你打开一扇门后，同样发现前方也有一扇们，紧接着你又打开下一扇门…但是却一直没有碰到尽头——这就是循环。
-        3）通过边长的数值和等待的时间来控制绘制的三角形的数量
-        4) 将"我的变量"=边长，监控边长的变化
-        5）理解起来有点难
-> 此示例扩展 3：画螺旋线
-> 示例地址： 
- 
-
-
->4. 鸡兔同笼
-> 知识点：直到循环，广播
-1）直到循环：   
-2）广播：广播是一对多使用的，一个发送端，多个接收端；发送端和接收端的消息要一样，才能执行程序
-举例理解"广播"：在学校中我们经常听到喇叭里的广播，跟着广播我们每天做“广播体操”，在做“广播体操”时，喇叭中发出的广播就像是指令一样，所有人需要按照这些指令来完成动作。  
-scratch中的广播功能，可以在“事件”分类中找到它们：  
-其中一共有3个模块：当接收到广播、广播一个消息、广播一个消息并等待    
-> 示例地址：[鸡兔同笼](https://scratch.mit.edu/projects/321636449/editor "鸡兔同笼")   
-> 备注：1）鸡兔同笼是中国古代著名趣题之一。大约在1500年前，《孙子算经》中就记载了这个有趣的问题。
-书中是这样叙述的：“今有雉兔同笼，上有三十五头，下有九十四足，问雉兔各几何？”
-这四句话的意思是：有若干只鸡兔同在一个笼子里，从上面数，有35个头；从下面数，有94只脚。问笼中各有几只鸡和兔？
-算这个有个最简单的算法。（总脚数－总头数×2)÷2=兔子数 总头数－兔子数=鸡数  
-
->此示例扩展：雯雯家有70只绵羊，每只大羊可剪毛1.6kg,每只小羊可剪毛1.2kg，现在总共剪得羊毛106kg,请问大羊和小羊各有多少只？
-
-
-> 5. 乘法口诀表
-> 知识点：列表，循环，直到循环，嵌套循环
-> 示例地址：[乘法口诀表](https://scratch.mit.edu/projects/321784470/editor/ "乘法口诀表")
-> 备注：不加入列表显示会比较简单
-
-## 课程计划
-
-> 第一课：scrach及社区初步认识 / 认识(编辑)舞台角色，声音 / 认识指令和序列 / 认识变量
- 
->> 例子1：小鱼水中游    
->>> 知识点：单循环 ，不同频率的重复的动作使用多个循环同步 
-
->> 例子2：click game / pong game    
->>> 知识点：点击角色触发事件 ，forever循环  /单循环，碰撞触发事件，鼠标追随
-
->> 例子3：追逐游戏：沙漠里的鱼  
->>> 知识点：循环，键盘控制，变量，多角色多背景切换   
-
-
-> 第二课：复习游戏，循环及嵌套循环
->> 例子1：追逐 & 躲避游戏：星球大战
->>> 知识点：克隆    
->> 例子1：画正多边形   
->> 例子2：画满屏，介绍坐标轴 
- 
-
-> 第三课：简单条件，复杂条件
->> 例子2：计算器(简单版，函数版)    
->> 例子3：BMI计算器  
->> 例子3：弹射控制类游戏  
-
-> 第四课：综合应用
->> 例子1：竞速游戏     
->> 例子2：鸡兔同笼
-
-
-> 第五课：高级应用
->> 例子1：谢尔宾斯基三角形   
->> 例子2：打印乘法口诀表（嵌套循环）
-
-## 参考网站：
->  [学而思的闯关课程](https://www.enjoycode.com/course/game "学而思的编程闯关课程")   
->  [少儿编程网的入门课程结构](http://www.kidscode.cn/Home/Page/page/un/codefun "少儿编程网") 
->  [参考教案](https://max.book118.com/html/2018/1002/8136037057001125.shtm "参考教案")
-
->  [mit官方教师手册](https://resources.scratch.mit.edu/www/guides/en/EducatorGuidesAll.pdf "教师手册全部")
->  [chase game card](https://resources.scratch.mit.edu/www/cards/en/chase-cards.pdf)
-
-## 参考项目：
->  [一个多人合作的展示类项目](https://scratch.mit.edu/projects/313983681/ "保护地球" )  
->  [鸡兔同笼](https://www.linstitute.net/archives/42781 "鸡兔同笼")   
->  [计算器](http://www.kidscode.cn/archives/2274 "计算器") 
-
-## 会涉及到的额外小知识：
-> 随机数：[什么是随机数](https://www.6zou.net/docs/what_is_random.html "什么是随机数") 
-   
-> 矢量图和位图：
-矢量图可以无限放大，不会失真，不会出来小方块；
-位图，放大会模糊，放大到最后，能看出是一个个小方块（像素）组成的
-
-> 乘法：http://www.lovfp.com/wendangku/z2s/f2eg/jc2539988ebv/k172ded630b1c59eef8c75ebf9516l.html
-
->坐标轴/直角坐标系
-[直角坐标系](https://baike.baidu.com/item/%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB/1835293)  
-注意：坐标轴是是指一条带方向有刻度的直线.而坐标系则是指若干条坐标轴组成的若干维的空间.
-
-> 数学建模 
-数学建模就是根据实际问题来建立数学模型，对数学模型来进行求解，然后根据结果去解决实际问题。
-
-> 鸡兔同笼
-https://baike.baidu.com/item/%E9%B8%A1%E5%85%94%E5%90%8C%E7%AC%BC/5907332?fr=aladdin
-
-> 谢尔宾斯基三角形
-> [谢尔宾斯基三角形](https://baike.baidu.com/item/%E8%B0%A2%E5%B0%94%E5%AE%BE%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2/1332191?fr=aladdin)
-
-> 递归：
-> [递归的解释](https://pushy.site/2018/02/20/recursion/)
-
-> 算法（algorithm）：An algorithm is a series of mathematical steps, especially in a computer program, which will give you the answer to a particular kind of problem or question
-> [算法挑战](http://www.kidscode.cn/article/detail/id/4099.html )
-## 教师账号
-https://scratch.mit.edu/educators 
-
-## 课前准备
-
-> 1. 建立学生账号   
-> https://scratch.mit.edu/classes/194674/register/9cf02f8f1c4448f5a72709016a1b1766
-> 根据提示输入用户名和密码，因为是通过教师账号注册，所以不需要跟家长的邮箱绑定，很方便
-
-> 2. 根据自己的操作系统下载一个离线编辑器备用  
-> https://scratch.mit.edu/download
-
-> 3. 设置一个便于孩子记忆的开机密码  
-> 注意：是开机密码，打开你家电脑的密码 
-
-代理：http://0x61.com/u/jellier/U9qk4E.pac
-
-## 课后总结：
-> 1、孩子们的理解能力超出想象，之前担心的他们听不懂的一些概念，其实只要对比现实中的例子，他们完全可以理解。比如广播，对比学校里的广播，很快能理解发送方和接收方，一对多这些广播的特点    
-
-> 2、准备的数学例子不够有趣儿，担心不能调动他们的热情，没有讲多少，唯一讲了的就是BMI计算器，因为可以回家给家长测试，比较实用，还是比较受欢迎，但孩子们表示里面的条件判断太复杂，理解起来有困难。所以条件判断也是个难点   
-
-> 3、循环和条件的综合使用还是需要多练习，出错贯穿始终。尤其不知道判断该放在循环里还是循环外     
-
-> 4、一开始就讲了面向对象编程，就是为了说明谁的事情就把代码放到谁身上，但似乎还是太抽象，经常在这个事儿上犯蒙，尤其是碰撞侦测，广播。。这种涉及多个对象的操作

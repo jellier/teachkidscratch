@@ -4,6 +4,8 @@
 > 一个完整的小游戏，在游戏中练习用键盘对角色的控制，场景的切换
 
 ### 追逐游戏：沙漠里的鱼
+![沙漠里的鱼](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/desertFish.jpg)
+
 > 说明：一条小鱼被施了魔法困在了沙漠里，只能靠小小的鱼缸生存，它必须接住掉下来的雨点，当雨点凑足10个就能返回大海
 > 知识点：循环，键盘控制，多角色多背景切换    
 > 示例地址：  [chase game](https://scratch.mit.edu/projects/322347067/editor "chase game")     
