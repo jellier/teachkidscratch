@@ -19,7 +19,7 @@
 > 游戏说明：点击人物，在输入框中输入想删除的小猫编号，对应的小猫消失    
 ![删除指定小猫](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/cloneCat.jpg)   
 > 知识点：私有变量--新建变量（仅适用于当前角色）, 克隆     
-> 示例地址：[操作指定克隆体](https://scratch.mit.edu/projects/324179756/editor)   
+> 示例地址：[操作指定克隆体：https://scratch.mit.edu/projects/324179756/editor](https://scratch.mit.edu/projects/324179756/editor)   
 
 #### 步骤：
 >> step1. 添加角色：小猫保留，再添加一个人物造型     

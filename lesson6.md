@@ -20,7 +20,7 @@
 ### 打地鼠      
 > 说明： 用鼠标控制锤子的位置，将随机出现的地鼠打下去     
 > 知识点：虚像，复杂的条件组合     
-> 示例地址：[打地鼠](https://scratch.mit.edu/projects/325454314/editor)   
+> 示例地址：[打地鼠：https://scratch.mit.edu/projects/325454314/editor](https://scratch.mit.edu/projects/325454314/editor)   
 > 步骤：
 >> step1. 添加背景、角色：   
         1）添加一个荒漠的背景     
@@ -70,7 +70,7 @@
     
 
 ### 此示例扩展：打地鼠克隆版     
-> 示例地址：[打地鼠--克隆地鼠地洞版](https://scratch.mit.edu/projects/326389786/editor)     
+> 示例地址：[打地鼠--克隆地鼠地洞版：https://scratch.mit.edu/projects/326389786/editor](https://scratch.mit.edu/projects/326389786/editor)     
 > 说明：之前的示例中5只地鼠除了序号不一样，其他都一样，每次修改代码，每只都要改一遍，很麻烦对不对？用学过的克隆方法，把一件事放在一个角色上解决。     
 > 步骤：
 >> step1. 添加背景、角色：   

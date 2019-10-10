@@ -41,8 +41,8 @@
 > 说明： 使用键盘上下箭头控制青蛙弹跳的方向，空格键控制发射，用尽量少的跳跃次数捕获更多的虫子   
 > 知识点：键盘控制，复习广播，了解重力的概念        
         
-> 示例地址：[青蛙捉虫子-上](https://scratch.mit.edu/projects/324177292/editor)    
-> 示例地址：[青蛙捉虫子-中](https://scratch.mit.edu/projects/324174825/editor)  
+> 示例地址：[青蛙捉虫子-上：https://scratch.mit.edu/projects/324177292/editor](https://scratch.mit.edu/projects/324177292/editor)    
+> 示例地址：[青蛙捉虫子-中：https://scratch.mit.edu/projects/324174825/editor](https://scratch.mit.edu/projects/324174825/editor)  
 
 > 步骤：
 >> step1. 增加螳螂（初始化，克隆体初始化)    
@@ -66,7 +66,7 @@
 >> step6. 收尾：game over时其他角色的处理：gameover显示，其他隐藏
  
 ## 此示例扩展 1： 增加障碍物   
-> 示例地址：[青蛙捉虫子-下](https://scratch.mit.edu/projects/323834199/editor)   
+> 示例地址：[青蛙捉虫子-下：https://scratch.mit.edu/projects/323834199/editor](https://scratch.mit.edu/projects/323834199/editor)   
 > 说明：增加一颗小灌木，确保角色轻微偏离舞台中心，稍靠左侧，否则虫子可能会粘在树后，游戏永远也结束不了   
 > 只需要在青蛙的代码中加入"或'碰到树'"的判断即可   
 ![青蛙捉虫子-添加障碍物-树](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/Frog3.jpg)   

@@ -27,7 +27,7 @@
 ### 例子1：小鱼水中游    
 > 说明：大海里一条小鱼在游来游去，遇到边缘返回   
 > 知识点：认识舞台，背景，角色，编辑角色，触发事件，forever循环 ，不同频率的重复的动作使用多个循环同步     
-> 示例地址：[小鱼水中游](https://scratch.mit.edu/projects/321283450/editor "最简单的循环")
+> 示例地址：[小鱼水中游：https://scratch.mit.edu/projects/321283450/editor](https://scratch.mit.edu/projects/321283450/editor "最简单的循环")
 ![小鱼水中游](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/fishSwim.jpg)
 
 > 步骤：
@@ -44,7 +44,7 @@
  
 ### 此示例扩展1：大鱼吃小鱼   
 > 说明：想让游戏有趣，一定要增加一个敌人。给游戏加入一条鲨鱼，当鲨鱼碰到小鱼的时候，小鱼发出"啊"的惨叫，被鲨鱼吃掉    
-> 示例地址：[大鱼吃小鱼](https://scratch.mit.edu/projects/324020784/editor "加入敌人")  
+> 示例地址：[大鱼吃小鱼：https://scratch.mit.edu/projects/324020784/editor](https://scratch.mit.edu/projects/324020784/editor "加入敌人")  
 ![大鱼吃小鱼](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish1.jpg) 
   
 >> step3. 增加敌人：一条鲨鱼    

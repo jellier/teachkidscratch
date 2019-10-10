@@ -18,7 +18,7 @@
 ## 小鱼水中游的扩展        
 ### 此示例扩展2：增加多个敌人   
 > 说明：增加游戏的趣味性，可添加多个敌人  
-> 示例地址：[大鱼吃小鱼2](https://scratch.mit.edu/projects/324022543/editor "加入多个敌人")  
+> 示例地址：[大鱼吃小鱼2：https://scratch.mit.edu/projects/324022543/editor](https://scratch.mit.edu/projects/324022543/editor "加入多个敌人")  
 ![增加多个敌人](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish2.jpg)
 
 >> step5. 增加敌人：另一条鲨鱼    
@@ -35,7 +35,7 @@
 ### 此示例扩展3：增加game over提示   
 > 说明：当小鱼被大鱼吃掉，广播"game over"，鲨鱼接收到game over 广播后隐藏，文字game over接收到广播后显示   
 > 知识点：广播 添加文字角色    
-> 示例地址：[大鱼吃小鱼3](https://scratch.mit.edu/projects/324056921/editor "加入广播")  
+> 示例地址：[大鱼吃小鱼3：https://scratch.mit.edu/projects/324056921/editor](https://scratch.mit.edu/projects/324056921/editor "加入广播")  
 ![增加game over](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/EatFish3.jpg)
 
 >> step7. 添加文字角色game over

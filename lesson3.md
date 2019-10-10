@@ -20,8 +20,8 @@
 ### BMI计算器，认识编程如何解决数学问题
 > 说明：配合计算器使用，理解运算符在程序中的使用
 > 知识点：深入理解条件，运算符，额外处理例外情况和临界值  
-> 示例地址：[BMI计算器](https://scratch.mit.edu/projects/321460387/editor "BMI计算器")     
-           [BMI计算器-上课演示](https://scratch.mit.edu/projects/324124989/editor "BMI计算器") 
+> 示例地址：[BMI计算器：https://scratch.mit.edu/projects/321460387/editor](https://scratch.mit.edu/projects/321460387/editor "BMI计算器")       
+           [BMI计算器-上课演示：https://scratch.mit.edu/projects/324124989/editor](https://scratch.mit.edu/projects/324124989/editor "BMI计算器") 
 
 > 核心算法：体质指数(BMI)=体重(kg)/身高 (m)^2
 

@@ -36,7 +36,7 @@
 ### 数组的使用：打印乘法口诀表    
 > 说明：点击绿旗，开始逐行打印乘法口诀    
 > 知识点：数组，字符串的使用，嵌套循环     
-> 示例地址：[打印乘法口诀表](https://scratch.mit.edu/projects/321784470/editor)   
+> 示例地址：[打印乘法口诀表：https://scratch.mit.edu/projects/321784470/editor](https://scratch.mit.edu/projects/321784470/editor)   
 
 > 步骤：
 >> step1. 添加人物角色，在人物上添加代码，当绿旗被点击，说"现在开始背乘法口诀"

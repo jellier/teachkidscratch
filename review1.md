@@ -20,7 +20,7 @@
 #### 说明： 
 > 游戏说明：使用空格键控制发射，两只重叠在一起的猴子，一只设定了重力，一只没有重力，观察他们的运动轨迹   
 ![飞起来的猴子](https://raw.githubusercontent.com/jellier/teachkidscratch/master/thumb/GravMonkey.jpg)      
-> 示例地址：[模拟现实中的运动轨迹](https://scratch.mit.edu/projects/330742656/editor)    
+> 示例地址：[模拟现实中的运动轨迹：https://scratch.mit.edu/projects/330742656/editor](https://scratch.mit.edu/projects/330742656/editor)    
 
 #### 步骤：
 >> step1. 添加第一只猴子MonkeyNoGrav（没有重力）-->   初始化（移到左下角，面向90度方向，将发射速度设为10）-->
